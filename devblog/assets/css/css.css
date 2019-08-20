@@ -1,0 +1,116 @@
+/* 分页样式 */
+.page-navigator {
+	margin: 25px 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.page-navigator li {
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.page-navigator a {
+	display: inline-block;
+	padding: 0 10px;
+	height: 30px;
+	background: #c2c2c2;
+	line-height: 30px;
+}
+
+.page-navigator a:hover {
+	background: #336699;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.page-navigator .current a {
+	background: #0099cc;
+	color: #FFF;
+}
+/*评论样式*/
+/* -----------------
+ * Content format
+ *--------------- */
+
+.comment-content {
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.comment-content h2 {
+  font-size: 1.28571em;
+}
+
+.comment-content img,
+.comment-content video {
+  max-width: 100%;
+}
+
+.comment-content a img {
+  background: #FFF;
+  position: relative;
+  bottom: -4px;
+  /* hidden img parent link border  */
+}
+
+.comment-content hr {
+  margin: 2em auto;
+  width: 100px;
+  border: 1px solid #E9E9E9;
+  border-width: 2px 0 0 0;
+}
+
+
+/* -----------------
+ * 评论文本框样式
+ *--------------- */
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+textarea {
+  padding: 5px;
+  border: 1px solid #E9E9E9;
+  width: 100%;
+  border-radius: 2px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+/* 提交按钮 */
+
+.comments-submit-btn {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.7;
+  padding: 10px 25px;
+  background: #FFF;
+  border: none;
+}
+
+.comments-submit-btn-div {
+  float: right;
+  color: #404040;
+  background: #FFF;
+  border: 1px solid #ddd;
+}
+
+.comments-submit-btn:hover {
+  color: #FFF;
+  text-shadow: none;
+  background: #0085a1;
+}
+
+.comments-header {
+  margin: 19px 0;
+}
+
+.comments-margin {
+  margin: 10px 0 0 0;
+}
